@@ -1,0 +1,56 @@
+body{
+  margin:0px;
+  background-color:#424242;
+  font-family:Roboto-Regular, Roboto-Light, Roboto-Bold, Roboto-Thin, sans-serif;
+  color: white;
+}
+
+header{
+  background-color: black;
+  height: 30px;
+  margin: 0px;
+}
+header > a{
+  text-decoration: none;
+  display: inline;
+  margin-right: 8%;
+  color: inherit;
+  font-size: 22px;
+  font: Roboto-Thin;
+}
+
+#Title{
+  color: inherit;
+  margin-top: 17%;
+  margin-left: auto;
+  margin-bottom: 0px;
+  text-align: center;
+  Font: Roboto-Bold;
+  font-size: 72px;
+}
+#SubTitle{
+  color: inherit;
+  font: Roboto-Thin;
+  margin-top: 2%;
+  text-align: center;
+  margin-left: auto;
+  font-size: 30px;
+}
+
+#AboutTitle{
+  color: inherit;
+  font: Roboto-Bold;
+  font-size: 30px;
+}
+
+#AboutText{
+  color: inherit;
+  font: Roboto-Regular;
+}
+
+footer{
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  background-color: black;
+  height:20px;
+}

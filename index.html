@@ -3,20 +3,53 @@
 <head>
 <title>Alex Mayes</title>
 <link rel="stylesheet" type="text/css" href="style.css">
+<script type='text/javascript' src='http://code.jquery.com/jquery-1.11.3.min.js'></script>
 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+<script src="hamburger.js"></script>
+<!-- thing for hamburger menu -->
+<style>
+    a{text-decoration: none;}
+    .container {
+      display: inline-block;
+      cursor: pointer;
+  }
+
+  .bar1, .bar2, .bar3 {
+      width: 35px;
+      height: 5px;
+      background-color: #333;
+      margin: 6px 0;
+      transition: 0.4s;
+  }
+
+  .change .bar1 {
+      -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+      transform: rotate(-45deg) translate(-9px, 6px);
+  }
+
+  .change .bar2 {opacity: 0;}
+
+  .change .bar3 {
+      -webkit-transform: rotate(45deg) translate(-8px, -8px);
+      transform: rotate(45deg) translate(-8px, -8px);
+  }
+    </style>
 </head>
 
 <body>
   <header>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="projects.html">Projects</a>
-    <a href="blog.html">Blog</a>
-    <a href="https://stackoverflow.com/users/7606122/alex?tab=profile">StackOverflow</a>
-    <a href="https://github.com/Akryllyk">GitHub</a>
-    <a href="mailto:arvmayes@gmail.com">Mail Me</a>
-    <a href="">survey</a>
-  </header>
+      <div class ="topnav" id = "myTopnav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="blog.html">Blog</a>
+            <a href="https://stackoverflow.com/users/7606122/alex?tab=profile">StackOverflow</a>
+            <a href="https://github.com/Akryllyk">GitHub</a>
+            <a href="mailto:arvmayes@gmail.com">Mail Me</a>
+            <a href="">survey</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>
+    </header>
   <div>
     <p id = "Title">
       ALEX MAYES

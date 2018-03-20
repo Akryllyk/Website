@@ -6,4 +6,4 @@ x.className += " responsive";
 } else {
 x.className = "topnav";
 }
-} 
+}

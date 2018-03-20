@@ -30,7 +30,6 @@ header > a{
   text-align: center;
   Font: Roboto-Bold;
   font-size: 72px;
-  position: absolute;
 }
 #SubTitle{
   color: inherit;
@@ -39,7 +38,6 @@ header > a{
   text-align: center;
   margin-left: auto;
   font-size: 30px;
-  position: absolute;
 }
 
 #AboutTitle{
